@@ -9,6 +9,9 @@ $(document).ready(function(){
     event.preventDefault();
 
     $(".customerName").text(customerNameInput);
+    $(".noodleChoice").text(customerNoodleChoice);
+    $(".customerAddress").text(customerAddressInput)
+
     $("#receipt").show();
   });
 });
